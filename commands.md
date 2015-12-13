@@ -42,6 +42,17 @@ npm i underscore@">=1.1.0 < 1.4.0"
 # install specific version 
 npm i underscore@1.8.1
 
+# install the latest version of the major release
+"underscore": "^1.5.1"
+
+// update production dependencies
+npm update --prod
+
+npm update underscore
+
+# update all the global packages
+npm update -g
+
 
 
 
