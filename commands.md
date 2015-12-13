@@ -54,6 +54,32 @@ npm update underscore
 npm update -g
 
 
+// go to the registry
+registry.npmjs.org/underscore
+
+// go directly to the page
+npm.im/underscore
+
+npm search underscore
+
+// npm compares the installed packages with the package.json file
+npm prune 
+
+// will remove all the dev dependencies
+npm prune --production
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
