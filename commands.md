@@ -68,7 +68,35 @@ npm prune
 // will remove all the dev dependencies
 npm prune --production
 
+// go to the repo of underscore
+npm repo underscore
 
+# update npm with admin privileges
+npm i npm@latest -g
+
+# run a custom script
+
+npm run uglify
+
+package.json
+
+"scripts": {
+    "uglify": "gulp uglify"
+}
+
+gulpfile.js
+gulp.task('uglify', function() {
+})
+
+// add an npm user
+npm adduser
+
+git remote add origin 'url'
+git push --set-upstream origin master
+git push origin master
+
+# publish the npm project
+> npm publish
 
 
 
